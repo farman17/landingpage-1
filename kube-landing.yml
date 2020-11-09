@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: landing
-        image: farman17/sosmediart-landing
+        image: farman17/dekkeng-landing
         ports:
         - containerPort: 80
         imagePullPolicy: "Always"
