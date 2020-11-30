@@ -32,7 +32,7 @@ spec:
       - name: landing
         image: farman17/dekkeng-landing
         ports:
-        - containerPort: 80
+        - containerPort: 443
         imagePullPolicy: "Always"
 
 ---
