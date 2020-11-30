@@ -36,6 +36,7 @@ spec:
         imagePullPolicy: "Always"
 
 ---
+apiVersion: v1
 kind: ConfigMap
 metadata:
   labels:
