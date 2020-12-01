@@ -22,7 +22,7 @@ spec:
       app: landing
   replicas: 1 # tells deployment to run 2 pods matching the template
   template:
-    metadata:
+  metadata:
       labels:
         app: landing
     spec:
