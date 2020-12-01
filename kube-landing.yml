@@ -7,9 +7,10 @@ metadata:
   namespace: production
 
 spec:
-  type: NodePort
+  #type: NodePort
   ports:
     - port: 8080
+      protocol: TCP
   selector:
     app: node-server
 ---
