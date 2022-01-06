@@ -4,7 +4,7 @@ pipeline {
     environment {
         // name of the image without tag
         dockerRepo = "farman17/landing-page"
-        dockerCredentials = 'b4fc87a1-c4f8-4e29-bd46-0161f826871c'
+        dockerCredentials = 'dockerID'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
