@@ -9,7 +9,7 @@ pipeline {
         dockerImageLatest = ""
     }
 
-    agent any
+    agent workerID
 
     stages {
         /* checkout repo */
