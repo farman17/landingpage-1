@@ -43,7 +43,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: 192.168.33.13
+  - host: 192.168.33.14
     http:
       paths:
       #- path: /
