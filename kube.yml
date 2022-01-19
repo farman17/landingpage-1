@@ -31,18 +31,12 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: dekkeng-ingress
-  annotations:
-    kubernetes.io/ingress.class: "nginx"
+  name: test-ingress
 spec:
-  rules:
-  - host: workhorsestudio.my.id
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: dekkeng-service
-            port:
-              number: 80
+  defaultBackend:
+    service:
+
+
+      name: test
+      port:
+        number: 80
