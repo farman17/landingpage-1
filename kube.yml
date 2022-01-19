@@ -35,8 +35,6 @@ metadata:
 spec:
   defaultBackend:
     service:
-
-
       name: test
       port:
         number: 80
