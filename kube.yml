@@ -6,6 +6,7 @@ metadata:
 spec:
   ports:
   - port: 80
+    targetPort: 3001
     protocol: TCP
   type: LoadBalancer
   selector:
